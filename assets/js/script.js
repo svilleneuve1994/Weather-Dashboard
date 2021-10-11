@@ -13,7 +13,7 @@ let city, lat, lon;
 function convertCity(e) {
 	e.preventDefault();
 	let city = document.getElementById("city-search").value;
-	let cityConversion = "http://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=1&appid=" + APIkey;
+	let cityConversion = "https://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=1&appid=" + APIkey;
 
 	fetch(cityConversion)
 		.then(function (response) {
