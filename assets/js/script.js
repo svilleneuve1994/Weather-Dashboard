@@ -61,7 +61,7 @@ function getApi(lat, lon) {
 					console.log("Search History Li Clicked");
 					let historyTxt = this.textContent;
 					console.log(historyTxt);
-					cityConversion = "http://api.openweathermap.org/geo/1.0/direct?q=" + historyTxt + "&limit=1&appid=" + APIkey;
+					cityConversion = "https://api.openweathermap.org/geo/1.0/direct?q=" + historyTxt + "&limit=1&appid=" + APIkey;
 
 					fetch(cityConversion)
 						.then(function (response) {
