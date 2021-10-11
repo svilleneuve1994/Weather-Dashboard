@@ -1,0 +1,51 @@
+.weather-container {
+	padding: 20px;
+	margin-bottom: 15px;
+	border: 1px solid navy;
+}
+
+.search-history {
+	list-style: none;
+	padding-left: 0;
+}
+
+.search-history li {
+	padding: 15px;
+	margin: 10px 0 10px 0;
+	background-color: lightgrey;
+	border-radius: 8px;
+}
+
+.seperator {
+	border-top: 3px solid navy;
+}
+
+.fivecast {
+	padding: 5px 10px 5px 10px;
+	margin-bottom: 10px;
+}
+
+.uv-green {
+	color: white;
+  background-color: #3EA72D;
+}
+
+.uv-yellow {
+	color: black;
+	background-color: #FFF300;
+}
+
+.uv-orange {
+	color: black;
+	background-color: #F18B00;
+}
+
+.uv-red {
+	color: white;
+	background-color: #E53210;
+}
+
+.uv-violet {
+	color: white;
+	background-color: #9E279A;
+}
